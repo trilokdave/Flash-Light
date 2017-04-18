@@ -23,7 +23,9 @@
       <allow-intent href="itms:*" />
       <allow-intent href="itms-apps:*" />
   </platform>
-	<plugin name="nl.x-services.plugins.flashlight" spec="1.0" source="pgb" />
+	<feature name="Flashlight">
+  <param name="android-package" value="nl.xservices.plugins.Flashlight" />
+</feature>
 	<feature name="Toast">
   <param name="android-package" value="nl.xservices.plugins.Toast" />
 </feature>
